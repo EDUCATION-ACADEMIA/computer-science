@@ -22,9 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Consider the following C declaration:struct { short s[5]; union { float y; long z; }u; } t;Assume that objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t is . . . . . .
 </title>
-<meta name="description" content="Since u is a union, memory allocated to u will be max of float y(4 bytes) and long z(8 bytes). So, total size will be 18 bytes (10 + 8).The total memory required to store a structure variable is equal to the sum of size of all the members.However, the size of uJob is 32 bytes. Its because the size of a union variable will always be the size of its largest element. In the above example, the size of its largest element, ( name[32] ), is 32 bytes. With a union, all members share the same memory.Succinctly, the size of a union is the size of its largest element; the size of a structure is the sum of the sizes of its elements, plus padding where needed.">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-<meta name="keywords" content=" How much memory space will the structure variable occupy struct int s 5 ]; union float a char b u t?, How to calculate the total memory required for letters of a structure is defined as following?, What is the memory size of union in C?, What is the size of structure and union respectively?, What is the size of C union Mcq?, What is the size of a union?, What is union syntax in C?, How many bytes is long?, How many bytes is a float in C? ">
 </head>
 <body data-rsssl="1" class="page-template-default custom-background custom-background-white custom-font-enabled single-author" style="padding: 0px 0px 154px;">
 <div id="page" class="site" style="height: auto !important;">
